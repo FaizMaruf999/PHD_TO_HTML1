@@ -1,0 +1,57 @@
+ /**common css starts  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+   
+}
+ul li{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.aline-center{
+    align-items: center;
+}
+/** common css end */
+/* COMMON NAVBAR START */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 30%;
+}    
+nav .manu{
+    width: 70%;
+    text-align: right;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    font-size: 16px;
+    font-weight:800;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: block;
+    color: #ffffff;
+}
+nav ul li a:hover{
+    color: red;
+    transition:1.5s;
+}
+
+/* COMMON NAVBER END */
